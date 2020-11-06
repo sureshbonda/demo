@@ -6,6 +6,7 @@
     [MemberAddlAddress] NCHAR (10) NOT NULL,
     [MemberCity]        NCHAR (10) NOT NULL,
     [MemberState]       NCHAR (10) NOT NULL,
-    [MemberZip]         NCHAR (10) NOT NULL
+    [MemberZip]         NCHAR (10) NOT NULL, 
+    CONSTRAINT [PK_MemberTable] PRIMARY KEY ([MemberID])
 );
 
